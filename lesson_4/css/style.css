@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff2") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    color: #121212;
+}
+
+body {
+    font-family: "Lato";
+}
+
+a {
+    color: #3456FF;
+}
+
+span {
+    font-style: italic;
+}
+
+.wrapper {
+    margin-inline: 15px;
+}
+
+.title,
+.subtitle {
+    font-family: "Cormorant Infant";
+    font-weight: 700;
+    font-size: 28px;
+    color: #302B63;
+}
+
+p.descr {
+    color: #F57DBA;
+    line-height: 1.2;
+}
+
+.price * {
+    color: #ff0000;
+}
+
+.footer-list li {
+    color: #cd5c5c;
+}
+
+.footer-link {
+    color: #cd5c5c;
+}

@@ -1,0 +1,60 @@
+* {
+    color: #121212;
+}
+
+h1 {
+    color: #302B63;
+}
+
+a {
+    color: #3456FF;
+}
+
+#text {
+    color: #974063;
+}
+
+.title {
+    color: #333;
+}
+
+.descr {
+    color: #F57DBA;
+}
+
+span.route {
+    color: #20C6C6;
+}
+
+.specs-list>li {
+    color: #6E5DCF;
+}
+
+.shtanhey-title,
+.shtanhey-descr {
+    color: #42506B;
+}
+
+.price * {
+    color: #ff0000;
+}
+
+.excursions-subtitle+p {
+    color: #42C3A7;
+}
+
+.excursions-text.descr {
+    color: #FF9575;
+}
+
+.content-title+p {
+    color: #008000;
+}
+
+.footer-list li {
+    color: #cd5c5c;
+}
+
+.footer-link {
+    color: #cd5c5c;
+}
