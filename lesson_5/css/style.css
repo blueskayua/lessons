@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    color: #121212;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: #2d4ce7;
+}
+
+img {
+    width: 300px;
+}
+
+.wrapper {
+    margin-inline: 15px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.header-nav {
+    margin-top: -90px;
+}
+
+.nav-item {
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.hero-title,
+.subtitle {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #302B63;
+}
+
+.hero-title {
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 24px;
+}
+
+.hero-descr {
+    color: #F57DBA;
+    line-height: 130%;
+    white-space: nowrap;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+}
+
+.books-list {
+    text-align: center;
+    line-height: 150%;
+    font-style: oblique;
+}
+
+.list-book>li {
+    font-weight: 700;
+    color: #47127d;
+}
+
+.books-list p {
+    text-decoration: overline;
+    text-shadow: 5px -2px 4px #2f054b;
+}
+
+.out-of-stock {
+    text-decoration: line-through;
+}
+
+.book {
+    width: 900px;
+    margin: 25px 30px;
+}
+
+.book-content {
+    margin-bottom: 30px;
+}
+
+.book-name {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+    line-height: 150%;
+    text-shadow: 0 10px 10px #2f054b;
+    margin-bottom: 10px;
+}
+
+.book-descr {
+    text-align: right;
+    letter-spacing: 0.5px;
+    margin-block: 10px;
+    text-decoration: underline;
+}
+
+.price {
+    width: 150px;
+    text-align: center;
+    background-color: #222527;
+    padding: 32px;
+}
+
+.price p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.price-old {
+    text-decoration: line-through;
+}
+
+.price a {
+    text-transform: uppercase;
+}
+
+.price * {
+    color: #FFC700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.book-plot-inside,
+.book-plot p {
+    line-height: 120%;
+    text-indent: 40px;
+    text-align: justify;
+    background-color: hsla(47, 100%, 50%, 0.1);
+    padding: 30px;
+    margin-bottom: 8px;
+}
+
+.book-plot-inside p {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+
+
+.book-rewiew {
+    background-color: #FFC700;
+    width: 200px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.book-rewiew a {
+    color: #fff;
+}
+
+.footer-list>li {
+    margin-bottom: 8px;
+}
+
+.footer-link {
+    text-transform: capitalize;
+    color: #cd5c5c;
+}
