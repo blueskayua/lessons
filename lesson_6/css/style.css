@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #424551;
+}
+
+main {
+    line-height: 160%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 810px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    margin-block: 15px;
+    text-align: center;
+}
+
+.header-logo {
+    margin-bottom: 12px;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 12px;
+}
+
+.article {
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.article-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 26px;
+}
+
+.article p {
+    text-align: justify;
+}
+
+.article img {
+    margin-bottom: 60px;
+}
+
+.article-descr {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+
+.article-block {
+    margin-bottom: 48px;
+}
+
+.article-block-text {
+    line-height: 160%;
+    margin-bottom: 12px;
+}
+
+.aricle-cit {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1E212C;
+    padding-left: 58px;
+    margin-bottom: 48px;
+}
+
+.article-pluses {
+    margin-bottom: 24px;
+}
+
+.article-pluses-descr {
+    margin-bottom: 24px;
+}
+
+.article-pluses-item {
+    padding-left: 32px;
+    margin-bottom: 4px;
+}
+
+.go-up {
+    padding-top: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+    margin-block: 20px;
+}
+
+.go-up a {
+    background-color: #023047;
+    color: #ffb703;
+    font-size: 17px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 10px 4px #121212;
+    margin: 0 24px 24px 0;
+}
+
+/* Практика */
+.practice {
+    margin-block: 60px;
+}
+
+.practice-hero {
+    margin-bottom: 50px;
+}
+
+.practice-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #121212;
+    margin-bottom: 24px;
+}
+
+.practice-descr {
+    border: 5px solid #ffafcc;
+    text-align: right;
+    text-indent: 32px;
+    border-radius: 48px;
+    padding: 24px;
+    margin-bottom: 25px;
+}
+
+.practice img {
+    padding: 50px;
+    background-color: #edf2f4;
+    border-radius: 0 135px 0 50px;
+    box-shadow: 10px 20px 15px 12px rgba(46, 46, 47, 0.65);
+}
+
+.practice-content-text {
+    border-top: 10px dashed #a2d2ff;
+    border-left: 8px dotted #cdb4db;
+    max-height: 120px;
+    overflow: scroll;
+    opacity: 0.7;
+    padding: 16px;
+    margin-bottom: 40px;
+}
+
+.practice-content-list {
+    opacity: 1;
+    color: #000;
+    margin: 0 20px 24px 12px;
+}
+
+.practice-content-item {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 8px 16px;
+    margin-bottom: 12px;
+}
