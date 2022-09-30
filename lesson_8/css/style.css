@@ -152,7 +152,7 @@ body {
 /* Curator section */
 
 .curator-section {
-  background: #FFCF2D;
+  background: url("../img/01.jpg") bottom right / 350px no-repeat, #FFCF2D;
   padding-block: 86px;
   margin-bottom: 80px;
 }
@@ -182,6 +182,7 @@ body {
 }
 
 .curator-section p {
+  max-width: 77%;
   line-height: 1.6;
 }
 
@@ -206,6 +207,22 @@ body {
 
 .curator-section li:nth-child(3) {
   background: url("../img/icons/profile.svg") 0 3px / 16px no-repeat;
+}
+
+/* Game section */
+.game-section {
+  opacity: 0;
+}
+
+.game-section:hover {
+  opacity: 1;
+}
+
+.game-section p {
+  font-size: 32px;
+  font-weight: 700;
+  padding-block: 80px;
+  mb
 }
 
 /* ------ Footer ------ */
@@ -238,18 +255,3 @@ footer {
     8px 32px 32px rgba(0, 0, 0, .15),
     8px 64px 64px rgba(0, 0, 0, .15);
 }
-
-/* .footer-list {}
-
-.footer-item {
-  margin-bottom: 24px;
-}
-
-.footer-link {
-  display: inline-block;
-  font-size: 20px;
-  background-color: #184e77;
-  color: #fff;
-  border-radius: 32px;
-  padding: 16px 32px;
-} */
