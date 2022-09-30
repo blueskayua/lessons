@@ -242,6 +242,11 @@ body {
   margin-bottom: 24px;
 }
 
+.game-section a:hover {
+  background-color: #FFC700;
+  color: #222527;
+}
+
 .game-section-container h4 {
   font-size: 42px;
   font-weight: 900;
