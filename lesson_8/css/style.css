@@ -309,6 +309,7 @@ body {
 
 .spoiler-box {
   display: none;
+  max-width: 550px;
 }
 
 .spoiler-box:target {
