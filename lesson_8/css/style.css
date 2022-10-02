@@ -42,13 +42,16 @@ body {
 }
 
 /* ------ Header ------ */
-.header-nav {
-  text-align: center;
-  margin-top: 12px;
-  margin-bottom: 40px;
+header {
+  padding: 32px 0;
 }
 
-.header-nav svg {
+.header-nav {
+  text-align: center;
+}
+
+.header-nav>a {
+  display: inline-block;
   margin-bottom: 12px;
 }
 
@@ -190,14 +193,14 @@ body {
   margin-bottom: 16px;
 }
 
-.curator-section p:first-of-type {
+.curator-section-container>p {
   font-size: 20px;
   line-height: 1.5;
   color: #303030;
   margin-bottom: 32px;
 }
 
-.curator-section p {
+.curator-section>p {
   max-width: 77%;
   line-height: 1.6;
 }
@@ -213,16 +216,16 @@ body {
   padding-left: 24px;
 }
 
-.curator-section li:nth-child(1) {
-  background: url("../img/icons/star.svg") 0 3px / 16px no-repeat;
+.curator-rate {
+  background: url("../img/icons/star.svg") 0 4px / 16px no-repeat;
 }
 
-.curator-section li:nth-child(2) {
-  background: url("../img/icons/play.svg") 0 3px / 16px no-repeat;
+.curator-courses {
+  background: url("../img/icons/play.svg") 0 4px / 16px no-repeat;
 }
 
-.curator-section li:nth-child(3) {
-  background: url("../img/icons/profile.svg") 0 3px / 16px no-repeat;
+.curator-student {
+  background: url("../img/icons/profile.svg") 0 4px / 16px no-repeat;
 }
 
 /* Game section */
